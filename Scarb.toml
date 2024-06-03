@@ -1,0 +1,12 @@
+[package]
+name = "mock_contract"
+version = "0.1.0"
+
+[dependencies]
+starknet = ">=2.5.1"
+
+[[target.starknet-contract]]
+allowed-libfuncs-list.name = "all"
+casm-add-pythonic-hints = true
+casm = true
+
